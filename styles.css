@@ -41,19 +41,27 @@ li {
 .hero .container {
   display: flex;
   flex: 1;
+  justify-content: space-between;
 }
 
 .hero .text {
+  font-size: 18px;
+  color: #e5e7eb;
+
 }
 
 .container .main {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .text button {
   background-color: #3882F6;
-  padding: 5px 20px;
+  padding: 4px 18px;
+  border-radius: 5px;
+  color: #e5e7eb;
+  font-size: 15px;
+  font-weight:600;
 }
 .information {
   display: flex;
