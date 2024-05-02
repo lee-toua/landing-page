@@ -24,6 +24,7 @@ header img {
   font-size: 24px;
   width: 50px;
   margin-right: 10px;
+  border-radius: 40px;
 }
 
 ul {
@@ -47,14 +48,11 @@ li {
   padding: 0 350px;
 }
 
-header img {
-  border-radius: 40px;
-}
 .hero .container {
   display: flex;
   flex: 1;
   justify-content: space-between;
-  padding: 100px 0; /* might need to flex: 1; with other sections*/
+  padding: 100px 0; /*might need to flex: 1; with other sections */
 }
 
 .hero .text {
@@ -107,4 +105,26 @@ header img {
   flex-direction: column;
   align-items: center;
   font-size: 18px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 150px 500px;
+}
+.quote .text {
+  display: flex;
+  align-self: center;
+  font-size: 36px;
+  font-weight:300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote .name {
+  display: flex;
+  justify-content: end;
+  font-size: 18px;
+  font-weight: 800;
 }
